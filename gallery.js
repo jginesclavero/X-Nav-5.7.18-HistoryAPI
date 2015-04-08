@@ -5,7 +5,7 @@ function supports_history_api() {
 function swapPhoto(href) {
   var req = new XMLHttpRequest();
   req.open("GET",
-           "http://https://github.com/jginesclavero/X-Nav-5.7.18-HistoryAPI/tree/gh-pages/gallery/" +
+           "http://jginesclavero.github.io/X-Nav-5.7.18-HistoryAPI/gallery/" +
              href.split("/").pop(),
            false);
   req.send(null);
